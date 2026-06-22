@@ -1,0 +1,13 @@
+[project]
+name = "peft-lora"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.14.0",
+    "bitsandbytes>=0.49.2",
+    "datasets>=5.0.0",
+    "evaluate>=0.4.6",
+    "peft>=0.19.1",
+    "torch>=2.11.0",
+    "transformers>=5.12.1",
+]

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Training outputs / model checkpoints (regenerable, large binaries)
+lora-out/
+out/
+test-trainer/
+saved_model/
+checkpoint-*/
+*.safetensors
+*.pt
+*.bin
+*.ckpt
+
+# Experiment tracking (local run artifacts; results live in README + W&B cloud)
+wandb/
+
+# Logs / scratch
+train_log.txt
+*.log
+
+# OS
+.DS_Store
